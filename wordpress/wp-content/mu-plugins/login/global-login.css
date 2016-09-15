@@ -1,0 +1,207 @@
+.login h1 {
+  background-image: url('/wp-content/mu-plugins/login/dp_cloud_logo.png');
+  background-size: 60px;
+  background-position: 20px 11px;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 92px;
+  padding-top: 17px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+}
+.login h1 a {
+  background: none !important;
+  width: auto;
+  height: auto;
+  text-indent: 0px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  display: inline;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+}
+.login h1 a:hover {
+  color: #ec4255;
+}
+.login h1 small {
+  font-weight: normal;
+  font-size: 14px;
+  color: #999;
+  display: block;
+}
+
+#login {
+  background: #fff;
+  padding: 0px 0px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100% !important;
+}
+@media screen and (min-width: 600px) {
+  #login {
+    top: 25px;
+    left: 50%;
+    margin-left: -160px;
+    right: auto;
+    bottom: auto;
+    width: 350px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  #login {
+    top: 75px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #login {
+    top: 150px;
+  }
+}
+
+.login form {
+  box-shadow: none !important;
+  padding: 0 0 !important;
+  -webkit-box-shadow: none !important;
+}
+.login form > div,
+.login form > p {
+  padding: 0 24px !important;
+}
+.login form > p.submit {
+  padding: 0 0 !important;
+  padding-top: 10px !important;
+}
+
+.forgetmenot {
+  display: none;
+}
+
+#wp-submit {
+  background-color: #ec4255;
+  border-color: #ec4255;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  display:block;
+  height: auto;
+}
+#wp-submit:hover {
+  background-color: #dc3245;
+  border-color: #dc3245;
+}
+
+.login #backtoblog {
+  display: none;
+}
+#close-button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #f0f0f0;
+  font-size: 24px;
+  text-decoration: none;
+  color: #999;
+  display: block;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  border-radius: 17px;
+}
+#close-button:hover {
+  background-color: #ff2136;
+  color: #fff;
+}
+.login #nav {
+  margin: 24px 0;
+}
+
+.message,
+#login_error {
+  box-shadow: none !important;
+  -webkit-box-shadow: none;
+  background: rgba(0,0,0,0.06) !important;
+  border: none !important;
+  margin-bottom: 1px;
+}
+.message.register {
+  display: none;
+}
+
+#nav {
+  display: none;
+}
+
+#new-nav-container {
+  margin: 10px 24px;
+  padding-top: 4px;
+}
+#new-nav {
+  list-style-type: none;
+  text-align: center;
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #999;
+}
+#new-nav li {
+  display: table-cell;
+}
+#new-nav li a {
+  display: block;
+  height: 32px;
+  font-size: 12px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #999;
+  text-transform: uppercase;
+}
+#new-nav li a:hover {
+  background: #f0f0f0;
+  text-decoration: underline;
+}
+#new-nav li.active a {
+  color: #fff;
+  background: #999;
+}
+#new-nav li.active a:hover {
+  text-decoration: none;
+}
+
+#new-forgot-password-link {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#new-forgot-password-link a {
+  color: #999;
+  text-decoration: none;
+}
+#new-forgot-password-link a:hover {
+  color: #ec4255;
+  text-decoration: underline;
+}
+
+.g-recaptcha > div {
+  width: auto !important;
+  margin-bottom: 12px;
+}
+.g-recaptcha iframe {
+  display: block;
+  margin: 0 auto;
+}
+#login_error a {
+  display: none;
+}

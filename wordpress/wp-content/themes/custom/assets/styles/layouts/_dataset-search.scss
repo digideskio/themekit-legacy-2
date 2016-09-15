@@ -1,0 +1,39 @@
+.format-icon {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 29px;
+  height: 31px;
+  &.format-icon-small {
+    width: 20px;
+    height: 21px;
+  }
+}
+.format-icon-group  {
+  height: 20px;
+  margin-right: 16px;
+  font-size: 10px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  .format-icon {
+    &:first-child {
+      position: relative;
+      margin-right: 5px;
+      z-index: 5;
+    }
+    &:nth-child(2) { z-index: 4; position: absolute; left: 2px; top: 2px; }
+    &:nth-child(3) { z-index: 3; position: absolute; left: 4px; top: 4px; }
+  }
+}
+.dataset-modified {
+  text-align: right;
+  color: #bbb;
+}
+.dataset-heading {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.dataset-resources {
+  margin-top: 8px;
+}

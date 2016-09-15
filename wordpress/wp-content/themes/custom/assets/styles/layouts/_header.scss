@@ -1,0 +1,23 @@
+#brand-logo {
+  float: left;
+  max-width: 100px;
+}
+#brand-title {
+  line-height: 50px;
+  margin: 25px 0px 25px 40px;
+  float: left;
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+#action-buttons, .action-buttons {
+  line-height: 50px;
+  margin: 25px 0px 25px 0px;
+  float: right;
+  ul.dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
